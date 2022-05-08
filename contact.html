@@ -62,7 +62,7 @@
   
     <div class="container ">
       <div class="row justify-content-center align-items-center bodys">
-        <div class="col-12 col-lg-9 col-xl-7">
+        <div class="col-12 col-md-9 col-mdS-7">
           <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
             <div class="card-body p-4 p-md-5">
               
@@ -103,7 +103,7 @@
                 <br>
                 <div class="form-group row">
                     <div class="offset-sm-2 col-sm-10 pull-right">
-                      <button onclick="myFunction()" value="Reset form" type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#submitModal">
+                      <button onclick="myFunction()" value="Reset form" type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Submit
                       </button>
                     </div>
@@ -116,27 +116,46 @@
       </div>
     </div>
   </div>
-  <div>
+  
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Submission</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        form submitted successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
     <br>
-    <h1 style="text-align: center;">Our Programs</h1>
+    <h1 style="text-align: center;">Our Other Programs</h1>
     <br>
-    <div class="container">
-      <div class="row">
+    <div class="container col-md-12">
+      <div class="row mx-auto">
           
           <br>
-          <div class="col">
+          <div class="col-md-4">
               <div class="card">
                   <img src="css/Images/xseed.jpeg" class="card-img-top img" alt="..." height="240" width="300">
                  
                 </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
               <div class="card">
                   <img src="css/Images/imaths.jpeg" class="card-img-top img" alt="..." height="240" width="300">
                   
                 </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
               <div class="card h-100">
                   <img src="css/Images/Ucmas.jpeg" class="card-img-top img" alt="..." height="240" width="300">
                   
@@ -147,23 +166,24 @@
     <br>
     
     </div>
-    <div class="container">
+    <div class="container col-md-12">
       <div class="row">
           
           <br>
-          <div class="col">
+          <div class="col-md-2"></div>
+          <div class="col-md-4">
               <div class="card">
                   <img src="css/Images/stemrobo.jpg" class="card-img-top img" alt="..." height="240" width="300">
                  
                 </div>
           </div>
-          <div class="col">
+          <div class="col-md-4">
               <div class="card">
                   <img src="css/Images/tinkercoders.png" class="card-img-top img" alt="..." height="240" width="300">
                   
                 </div>
           </div>
-         
+          <div class="col-md-2"></div>
       </div>
       
     </div>

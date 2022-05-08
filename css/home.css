@@ -1,7 +1,11 @@
+body{
+  margin: 0;
+}
 .courseintro{
     width:100%;
     text-align: center;
-    margin-left: 9%;
+    margin-left: 1%;
+    margin-right:1% ;
     border-radius: 25px;
     background-color: white;
     color: black;
@@ -14,7 +18,7 @@
     padding-top: 40px;
     padding-bottom:40px ;
     margin: 15px;
-   background-color: white;
+    background-color: white;
    
 }
 .border3{
@@ -28,7 +32,7 @@
 .courseintro2{
     width:100%;
     text-align: center;
-    margin-left: 3%;
+    margin-left: 1%;
 
     border-radius: 25px;
     background-color: white;
@@ -78,8 +82,13 @@
         background-color: white;
         color: black;
     }
-    navbar-custom{
+  navbar-custom{
       margin: 80%;
       color: black;
       font-size: medium;
     }
+    
+  .cards{
+    margin-left:100%;
+
+  }

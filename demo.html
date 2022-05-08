@@ -55,17 +55,17 @@
     </div>
 </nav>
     <section class="h-100 org">
-        <div class="container py-5 h-100">
+        <div class="container col-md-12 py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col">
+            <div class="col-md-12">
               <div class="card card-registration my-4">
                 <div class="row g-0">
-                  <div class="col-xl-6 d-none d-xl-block">
+                  <div class="col-md-6 d-none d-xl-block">
                     <img src="css/Images/ghanastudents.jpg"
                       alt="Sample photo" class="img-fluid h-100"
                       style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
                   </div>
-                  <div class="col-xl-6">
+                  <div class="col-md-6">
                     <div class="card-body p-md-5 text-black">
                         <form name="submit-to-google-sheet" id="myformss">
                       <h3 class="mb-5 text-uppercase">Book A Free Demo</h3>
@@ -121,7 +121,7 @@
       
                       <div class="d-flex justify-content-end pt-3 p-md-5 h-40">
                         
-                        <button onclick="myFunction()" value="Reset form" type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#submitModal">
+                        <button onclick="myFunction()" value="Reset form" type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                            <strong> Submit</strong>
                           </button>
                       </div>
@@ -134,6 +134,24 @@
           </div>
         </div>
       </section>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Form Submission</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        form submitted successfully
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
     <div class="container-fluid my-5">
       <!-- Footer -->
       <footer
@@ -171,7 +189,7 @@
               <!-- Grid column -->
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                <p><i class="fas fa-home mr-3"></i> 309, Tower B, iThum Business Park Sector 62, Noida 201301, Near Noida Electronic City Metro Station</p>
+                
                 <p><i class="fas fa-envelope mr-3"></i> sales@tinkercoders.com</p>
                 <p><i class="fas fa-phone mr-3"></i>  9971192244, 7428366266</p>
                
